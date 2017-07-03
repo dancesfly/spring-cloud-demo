@@ -1,0 +1,25 @@
+{
+  "groups": [{
+    "name": "spring.data.mongodb",
+    "type": "cn.demo.service0.config.Mongo3Properties",
+    "sourceType": "cn.demo.service0.config.Mongo3Properties"
+  }],
+  "properties": [
+    {
+      "name": "spring.data.mongodb.database",
+      "type": "java.lang.String",
+      "sourceType": "cn.demo.service0.config.Mongo3Properties"
+    },
+    {
+      "name": "spring.data.mongodb.grid-fs-database",
+      "type": "java.lang.String",
+      "sourceType": "cn.demo.service0.config.Mongo3Properties"
+    },
+    {
+      "name": "spring.data.mongodb.url",
+      "type": "java.lang.String",
+      "sourceType": "cn.demo.service0.config.Mongo3Properties"
+    }
+  ],
+  "hints": []
+}

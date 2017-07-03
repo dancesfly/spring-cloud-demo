@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: service1
+  redis:
+    database: 0
+    host: ${redis.host:localhost}
+    password: ${redis.password:}
+    port: ${redis.port:6379}
+    pool: 
+      max-idle: 600
+      min-idle: 0
+      max-active: 600
+      max-wait: 10000
+      
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8080/eureka/  #注册中心地址
+  instance:
+    hostname: localhost
+    instance-id: http://localhost:8082
+    
+    
+server:
+  port: 8082 #service0 占用8082
